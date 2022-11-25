@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "RobotoLightItalic";
+  src: url("./assets/fonts/Roboto/Roboto-LightItalic.ttf");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+
+.header-section {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.logo p {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  height: 300px;
+}
+
+.header-content-text {
+  width: 50%;
+}
+
+.header-content-text h1 {
+  font-size: 48px;
+  color: #e5e7eb;
+}
+
+.header-content-text p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #f9faf8;
+}
+
+.btn {
+  background-color: #3882f6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.header-content-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  background-color: #e5e7eb;
+}
+
+
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.info-section h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.section-card {
+  display: flex;
+  gap: 40px;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.card-text {
+  padding: 5px;
+  text-align: center;
+}
+
+.box {
+  background-color: #fff;
+  border: 2px solid #3882f6;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.quote-setion {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.quote {
+  width: 60%;
+}
+
+.quote-text {
+  font-family: "RobotoLightItalic", sans-serif;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+}
+.quote-author {
+  text-align: right;
+  padding: 0 20px;
+}
+
+.last-setcion {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.last {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: #3882f6;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.last-text small {
+  color: #eee;
+}
+
+.last-text p {
+  margin-bottom: 0;
+}
+
+.btn-outline {
+  background-color: inherit;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-floating{
+    position: absolute;
+    bottom: 6%;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: xx-large;
+    color: #fff;
+    background-color: #1f2937;
+    z-index: 100;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-top: 60px;
+}
