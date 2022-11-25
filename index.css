@@ -3,8 +3,8 @@
   src: url("./assets/fonts/Roboto/Roboto-LightItalic.ttf");
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -12,15 +12,12 @@ body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   position: relative;
-  
 }
 
 .header-section {
   background-color: #1f2937;
   color: #fff;
 }
-
-
 
 .container {
   max-width: 1200px;
@@ -79,25 +76,14 @@ body {
   color: #f9faf8;
 }
 
-.btn {
-  background-color: #3882f6;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: 500;
-}
 
-.header-content-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.header-image {
   width: 100%;
   height: 100%;
-  color: #000;
-  background-color: #e5e7eb;
+  object-fit: cover;
+  border-radius: 5px;
 }
-
 
 
 .info-section {
@@ -126,16 +112,20 @@ body {
 
 .card-text {
   padding: 5px;
-  text-align: center;
 }
 
-.box {
-  background-color: #fff;
-  border: 2px solid #3882f6;
+.card-text :first-child {
+  text-align: start;
+  font-weight: bold;
+}
+
+.card-image {
   width: 100%;
   height: 200px;
+  object-fit: cover;
   border-radius: 5px;
 }
+
 
 .quote-setion {
   background-color: #e5e7eb;
@@ -160,13 +150,14 @@ body {
   padding: 0 20px;
 }
 
-.last-setcion {
+
+.connect-setcion {
   display: flex;
   justify-content: center;
   margin-top: 60px;
 }
 
-.last {
+.connect-box {
   display: flex;
   gap: 40px;
   align-items: center;
@@ -178,11 +169,11 @@ body {
   width: 40%;
 }
 
-.last-text small {
+.connect-box-text small {
   color: #eee;
 }
 
-.last-text p {
+.connect-box-text p {
   margin-bottom: 0;
 }
 
@@ -194,20 +185,29 @@ body {
   border-radius: 5px;
 }
 
-.btn-floating{
-    position: absolute;
-    bottom: 6%;
-    right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    font-size: xx-large;
+.btn {
+    background-color: #3882f6;
     color: #fff;
-    background-color: #1f2937;
-    z-index: 100;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+.btn-floating {
+  position: absolute;
+  bottom: 6%;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: xx-large;
+  color: #fff;
+  background-color: #1f2937;
+  z-index: 100;
 }
 
 footer {
